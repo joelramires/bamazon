@@ -1,3 +1,4 @@
+DROP DATABASE Bamazon;
 CREATE DATABASE Bamazon;
 
 USE Bamazon;
@@ -11,7 +12,7 @@ CREATE TABLE Products(
     primary key(ItemID)
 );
 
-SELECT * FROM Products;
+Select * From Products;
 
 INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity)
 VALUES ("Street Fighter 5","ENTERTAINMENT",34.99,150),
@@ -19,11 +20,11 @@ VALUES ("Street Fighter 5","ENTERTAINMENT",34.99,150),
     ("StarKist Chunk Light Tuna Pack of 8","GROCERY",6.50,300),
     ("Bulova Men's 43mm Classic Automatic Watch","CLOTHING",299.98,5),
     ("Levi's Mens 510 Skinny-fit Jean","CLOTHING",29.99,35),
-    ("Survival Towel","SPORTS & OUTDOORS",42.42,42),
+    ("Survival Towel","SPORTS & OUTDOORS",39.99,42),
     ("The Matrix","ENTERTAINMENT",11.99,25),
-    ("Mad Max: Fury Road","ENTERTAINMENT",25.50,57),
-    ("Catan: Family Edition","ENTERTAINMENT",24.00,35),
-    ("Yahtzee","ENTERTAINMENT",19.95,23);
+    ("Mad Max: Fury Road","ENTERTAINMENT",25.50,60),
+    ("Catan","ENTERTAINMENT",30.50,35),
+    ("Yahtzee","ENTERTAINMENT",19.95,20);
 
 CREATE TABLE Departments(
     DepartmentID MEDIUMINT AUTO_INCREMENT NOT NULL,
