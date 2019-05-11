@@ -47,11 +47,19 @@
 
 - If the manager selects View Products for Sale, it lists all of the products in the store including all of their details.
 
+<img width="1280" alt="Screen Shot 2019-05-11 at 2 02 42 PM" src="https://user-images.githubusercontent.com/47430998/57573640-b22eb580-73f8-11e9-9e72-f06b5dacb67f.png">
+
 - If the manager selects View Low Inventory, it'll list all the products with less than five items in its StockQuantity column.
+
+<img width="1280" alt="Screen Shot 2019-05-11 at 2 03 21 PM" src="https://user-images.githubusercontent.com/47430998/57573641-b3f87900-73f8-11e9-884b-576da9357de9.png">
 
 - If the manager selects Add to Inventory, it allows the manager to select a product and add inventory.
 
+<img width="1280" alt="Screen Shot 2019-05-11 at 2 03 44 PM" src="https://user-images.githubusercontent.com/47430998/57573642-b5c23c80-73f8-11e9-82e0-a8644982987b.png">
+
 - If the manager selects Add New Product, it allows the manager to add a new product to the store.
+
+<img width="1280" alt="Screen Shot 2019-05-11 at 2 24 18 PM" src="https://user-images.githubusercontent.com/47430998/57573643-b6f36980-73f8-11e9-8518-63ada5fff1dd.png">
 
 - If the manager selects End Session, it ends the session and doesn't go back to the menu.
 
